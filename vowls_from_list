@@ -1,0 +1,12 @@
+
+#print and remove letter from list is letter is a vowl
+letter_list = ['h', 'n', 'o', 'p', 't', 'y']
+
+v_list = ['a', 'e', 'i', 'o', 'u', 'y']
+
+for letter in letter_list:
+    if letter in v_list:
+        print(letter)
+        letter_list.remove(letter)
+
+print(letter_list)
